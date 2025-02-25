@@ -1,0 +1,61 @@
+/*html tag selector controlling body tag*/
+body{
+background-color:#E6E6FA;
+margin: 0px;
+padding:50px 60px 0px 60px;
+text-align: justify;
+text-justify: inter-word;
+} 
+
+/*descendent selector, h2 is a child of main*/
+main h2 {
+    color: #8E4585;
+    text-align: center;
+}
+
+header h1{
+    color: #8E4585;
+    font-size: 60;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+header h2 {
+    color: rgb(2, 2, 177);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav a {
+    font-weight: 900;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 20px 0px 0px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+nav {
+    text-align: center;
+}
+
+nav a:hover{
+    color:#A020F0 
+    
+}
+
+img {
+    width: 300px;
+    box-sizing: content-box;
+}
+
+
+
+
+ 
+
