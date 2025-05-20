@@ -5,13 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vinyl Vault</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>jQuery Hover Image</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
 
 	    <div id="wrapper">
 	    	<header>
-	    		<img class="spin" src="images/vinylvault.jpeg" alt="logo" width="200" height="100">
+	    		<img class="spin"  src="images/VVlogo.jpg" alt="logo" width="120" height="110">
 				
 				
 			</header>
@@ -30,24 +36,75 @@
 	    
                 <div class="container">
                     <div>
-                        <img class="pluse" src="images/selenar.webp" width= "230" height="230"> <h4>I said I Love You First <h4>Selena Gomez & Benny Blanco</h4>
+                      <h4>I said I Love You First <h4>Selena Gomez & Benny Blanco</h4>
+                        <img class="pluse" id="hoverImage1" 
+                        src="images/selenar.webp"
+                        alt="Hover Me" width= "230" height="230">  <button id="myButton" width="100"
+                        height="100">Add to Cart</button> 
                     </div>
-                    <div> <img class="pluse" src="images/arianar.webp" width= "230" height="230"> <h4>Eternal Sunshine</h4><h4>Ariana Grande</h4></div>
-                    <div> <img class="pluse" src="images/chappellr.webp" width= "230" height="230"><h4>The Rise and Fall of a Midwest Princess</h4><h4>Chappell Roan</h4> </div>  
-                    <div> <img class="pluse" src="images/fayer.webp" width= "200" height="200"> <h4>Underdressed at the Symphony</h4><h4>Faye Webster</h4></div>
-                    <div><img class="pluse" src="images/billier.webp" width= "200" height="200"> 
-                    <h4>Hit Me Hard and Soft</h4><h4>Billie Eilish</h4></div>
-                    <div><img class="pluse" src="images/sabrinar.webp" width= "200" height="200"> 
-                      <h4>Short n' Sweet</h4><h4>Sabrina Carpenter</h4></div>  
-                    <div><img class="pluse" src="images/taylorr.webp" width= "200" height="200"> 
-                      <h4>The Tortured Poets Department</h4><h4>Taylor Swift</h4></div>
-                    <div><img class="pluse" src="images/weekndr.webp" width= "200" height="200"> 
-                      <h4>Hurry Up Tomorrow</h4><h4>The Weeknd</h4></div>
-                    <div><img class="pluse" src="images/mariasr.webp" width= "200" height="200"> 
-                      <h4>Submarine</h4><h4>The Marias</h4></div>
+                    <div> 
+                      <h4>Eternal Sunshine</h4>
+                      <h4>Ariana Grande</h4>
+                      <img class="pluse" id="hoverImage2" src="images/arianar.webp" alt="Hover Me" width= "230" height="230"> <button id="myButton" width="100"
+                      height="100">Add to Cart</button> 
+                    </div>
+                    <div> 
+                      <h4>The Rise and Fall of a Midwest Princess</h4>
+                      <h4>Chappell Roan</h4>
+                      <img class="pluse" id="hoverImage3" src="images/chappellr.webp" alt="Hover Me" width= "230" height="230"> <button id="myButton" width="100"
+                      height="100">Add to Cart</button> 
+                    </div>  
+                    <div>
+                      <h4>Underdressed at the Symphony</h4>
+                      <h4>Faye Webster</h4>
+                       <img class="pluse" id="hoverImage4"  src="images/fayer.webp" alt="Hover Me" width= "200" height="200"> <button id="myButton" width="100"
+                       height="100">Add to Cart</button> 
+                      </div>
+                    <div>
+                      <h4>Hit Me Hard and Soft</h4>
+                      <h4>Billie Eilish</h4>
+                      <img class="pluse" id="hoverImage5" src="images/billier.webp" alt="Hover Me" width= "200" height="200">  <button id="myButton" width="100"
+                      height="100">Add to Cart</button> 
+                
+                  </div>
+                    <div>
+                      <h4>Short n' Sweet</h4>
+                      <h4>Sabrina Carpenter</h4>
+                      <img class="pluse" id="hoverImage6"  src="images/sabrinar.webp" alt="Hover Me" width= "200" height="200">  <button id="myButton" width="100"
+                      height="100">Add to Cart</button> 
+                    
+                    </div>  
+                    <div>
+                      <h4>The Tortured Poets Department</h4>
+                      <h4>Taylor Swift</h4>
+                      <img class="pluse" id="hoverImage7" src="images/taylorr.webp" alt="Hover Me" width= "200" height="200">  <button id="myButton" width="100"
+                      height="100">Add to Cart</button> 
+                      
+                    </div>
+                    <div>
+                      <h4>Hurry Up Tomorrow</h4>
+                      <h4>The Weeknd</h4>
+                      <img class="pluse" id="hoverImage8" src="images/weekndr.webp" alt="Hover Me" width= "200" height="200">  <button id="myButton" width="100"
+                      height="100">Add to Cart</button> 
+                      
+                    </div>
+                    <div>
+                      <h4>Submarine</h4>
+                      <h4>The Marias</h4>
+                      <img class="pluse"  id="hoverImage9" 
+                      src="images/mariasr.webp"
+                      alt="Hover Me" width= "200" height="200">  <button id="myButton" width="100"
+                      height="100">Add to Cart</button> 
+                      
+                    </div>
+
+                      <script src="main.js"></script>
                   </div>
 		       
                 </main>
+                
+</html>
+
 
                 <aside>
 

@@ -12,7 +12,7 @@ html {
   body{
     padding: 0;
     margin: 0;
-    background-color: #f3d156;
+    background-color: #212121;
   font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -31,11 +31,14 @@ html {
       text-align: center;
   }
 
+h1{
+color:#6088a5
+}
   #wrapper{
     margin: 0px auto;
     /* centers wrapper*/
-    background-color: rgb(208, 157, 255);
-    color:white; 
+    background-color: rgb(255, 255, 255);
+    color:#000000; 
     max-width: 1000px;
     /* display: flex;
      flex-wrap: wrap; */
@@ -43,7 +46,7 @@ html {
   }
 
   header{
-    background-color: #f3d156;
+    background-color: #212121;
    flex: 1 0 100%; 
     padding: 58px;
     text-align: center;
@@ -59,7 +62,7 @@ html {
   }
 
   nav{
-    background-color: #091f48;
+    background-color: #d7e1f2;
         flex: 1 0 100%;
       display: flex;
       flex-wrap: wrap;
@@ -77,18 +80,18 @@ nav li{
 
   nav a{
     text-decoration: solid;
-    color: white;
+    color: #6088a5;
   }
 
   nav a:hover{
-    color: #f54e03;
+    color: #212121;
     width: auto;
   }
 
 
   main{
-    background-color: #004aad;
-        padding:20px;
+    background-color: white;
+        padding:40px;
         display: grid;
         grid-column: 1 / 13;
   
@@ -96,7 +99,7 @@ nav li{
   
 
   aside{
-    background-color:#f54e03;
+    background-color:#212121;
         padding: 30px;
        
   }
@@ -107,46 +110,49 @@ nav li{
   }
 
 aside p:hover{
-  color: #091f48;
+  color: #6088a5;
   width: auto;
 }
 footer{
-    background-color: #f3d156;
+    background-color: #212121;
         flex: 1 0 100%;
         padding: 10px;
         text-align: center;
         font-size: 10px;
     order: 5;
   }
+
+
   
   /* grid css*/
   .container {
     display: grid;
-    column-gap: 0px;
-    row-gap: 0px;
+    column-gap: 10px;
+    row-gap: 80px;
     grid-template-columns: auto auto auto;
-    background-color: #004aad;
+    background-color: white;
     padding: 20px;
   }
   
   .container > div {
-    background-color: #004aad;
+    background-color: white;
     border: 0px;
     padding: 0px;
     height:260px;
     font-size: 10px;
     text-align: center;
+    align-items: center;
   }
 
   /* Flex css*/
   .flex-container {
   display: flex;
-  background-color: #004aad;
+  background-color: white;
   justify-content: space-around;
 }
 
 .flex-container > div {
-  background-color: #004aad;
+  background-color: white;
   margin: 20px;
   padding: 20px;
   width: 200px;
@@ -154,5 +160,23 @@ footer{
   font-size: 10px;
 }
 
+#myButton {
+  padding: 10px 20px;
+  background-color: #212121;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  font-family:"Urbanist", sans-serif;
+  cursor: default;
+  align-self: center;
+}
 
-  
+#myButton:hover {
+  background-color: #6088a5;
+}
+
+.center-button {
+  text-align: center;
+  margin-top: 20px;
+}
