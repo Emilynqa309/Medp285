@@ -1,0 +1,86 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* END border-box fix */
+
+
+body{
+background-color: #3f1680;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+div.container {
+    width: 100%;
+    height: 100%;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+header, nav, main, aside, footer {
+    padding: 25px;
+}
+
+header{
+    background-color: #3f1680 ;
+    color: white; 
+}
+
+nav{
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+    margin: 0px 40px;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #fed4db;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+  nav a{
+    text-decoration: solid;
+    color: #c11f45;
+  }
+
+  nav a:hover{
+    color: #6466df;
+    width: auto;
+  }
+
+main{
+    background-color: whitesmoke;
+    width: 60%;
+    float: left;
+}
+
+section{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+aside {
+    background-color: white;
+    width: 40%;
+    float: left; 
+
+}
+
+footer{
+    background-color: #c11f45;
+    clear: both;
+    text-align: center;
+}
